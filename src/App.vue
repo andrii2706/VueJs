@@ -1,8 +1,8 @@
 <template>
-  <div id="app" class="bg-green-200 w-full h-full">
+  <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <div class="flex justify-center items-center">
-    <buttons/>
+      <pagination/>
     </div>
   </div>
 </template>
@@ -11,12 +11,12 @@
 // import HelloWorld from './components/HelloWorld.vue';
 
 // eslint-disable-next-line import/extensions
-import Buttons from './components/buttons/buttons';
+import Pagination from './components/pagination/pagination';
 
 export default {
   name: 'App',
   components: {
-    Buttons,
+    Pagination,
     // HelloWorld,
   },
 };

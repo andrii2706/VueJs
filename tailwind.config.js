@@ -23,16 +23,17 @@ module.exports = {
         customHeight: '32px',
       },
       spacing: {
-      },
-      borderRadius: {
-        'custom-1': '5px',
+        16: '6px',
       },
     },
-    container: {
-      padding: {
-        DEFAULT: '0rem',
-        custom: '6px, 32px, 6px, 32px',
-      },
+    borderRadius: {
+      'custom-1': '5px',
+    },
+  },
+  container: {
+    padding: {
+      DEFAULT: '0rem',
+      custom: '6px, 32px, 6px, 32px',
     },
   },
   variants: {
