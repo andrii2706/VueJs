@@ -18,12 +18,15 @@ module.exports = {
     extend: {
       width: {
         customWidth: '96px',
+        293: '293px',
       },
       height: {
         customHeight: '32px',
+        32: '32px',
       },
       spacing: {
         16: '6px',
+        5: '5px',
       },
     },
     borderRadius: {

@@ -1,32 +1,39 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
+<!--    <div class="flex justify-center items-center">-->
+<!--      <pagination/>-->
+<!--    </div>-->
+<!--    <div class="flex justify-center items-center">-->
+<!--      <bages/>-->
+<!--    </div>-->
+<!--    <div>-->
+<!--      <buttons/>-->
+<!--    </div>-->
     <div>
-      <pagination/>
-    </div>
-    <div class="flex justify-center items-center">
-      <bages/>
+      <inputs/>
     </div>
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue';
+// eslint-disable-next-line import/extensions
+// import Bages from '@/components/bages/bages';
+// eslint-disable-next-line import/extensions
+// import Pagination from '@/components/pagination/pagination';
+// eslint-disable-next-line import/extensions
+// import Buttons from '@/components/buttons/buttons';
 
 // eslint-disable-next-line import/extensions
-import Bages from '@/components/bages/bages';
-// eslint-disable-next-line import/extensions
-import Pagination from '@/components/pagination/pagination';
-
-// import Pagination from './components/pagination/pagination';
+import Inputs from '@/components/inputs/inputs';
 
 export default {
   name: 'App',
   components: {
-    Pagination,
-    Bages,
+    Inputs,
+    // Buttons,
     // Pagination,
-    // HelloWorld,
+    // Bages,
   },
 };
 </script>
