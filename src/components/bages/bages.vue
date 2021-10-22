@@ -42,10 +42,12 @@ export default {
   height: 8px;
   border-radius: 4px;
 }
-.span-block{
+
+.span-block {
   display: none;
 }
-.bages:hover .span-block{
+
+.bages:hover .span-block {
   width: 83px;
   height: 32px;
   margin: 25px;
@@ -57,7 +59,7 @@ export default {
 
 }
 
-.bages-danger:hover .span-block{
+.bages-danger:hover .span-block {
   width: 66px;
   height: 32px;
   margin: 25px;
@@ -68,7 +70,8 @@ export default {
   display: block;
 
 }
-.bages-green:hover  .span-block{
+
+.bages-green:hover .span-block {
   width: 139px;
   height: 32px;
   margin: 25px;

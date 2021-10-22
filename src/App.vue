@@ -1,15 +1,15 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-<!--    <div class="flex justify-center items-center">-->
-<!--      <pagination/>-->
-<!--    </div>-->
-<!--    <div class="flex justify-center items-center">-->
-<!--      <bages/>-->
-<!--    </div>-->
-<!--    <div>-->
-<!--      <buttons/>-->
-<!--    </div>-->
+    <!--    <div class="flex justify-center items-center">-->
+    <!--      <pagination/>-->
+    <!--    </div>-->
+    <!--    <div class="flex justify-center items-center">-->
+    <!--      <bages/>-->
+    <!--    </div>-->
+    <!--    <div>-->
+    <!--      <buttons/>-->
+    <!--    </div>-->
     <div>
       <inputs/>
     </div>

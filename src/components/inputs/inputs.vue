@@ -33,11 +33,7 @@
 export default {
   name: 'inputs',
   data() {
-    return {
-      isActive: false,
-      valueSuccess: '',
-      valueDanger: '',
-    };
+    return {};
   },
 };
 </script>
@@ -55,7 +51,8 @@ export default {
 .border:focus {
   border: 1px solid #0155D2;
 }
-.border-success{
+
+.border-success {
   width: 293px;
   height: 32px;
   border: 1px solid #69AA9E;
@@ -63,7 +60,8 @@ export default {
   outline: none;
   padding: 5px;
 }
-.border-false{
+
+.border-false {
   border: 1px solid red;
   border-radius: 5px;
   outline: none;
