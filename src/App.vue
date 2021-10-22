@@ -2,7 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <div class="flex justify-center items-center">
-      <pagination/>
+      <bages/>
     </div>
   </div>
 </template>
@@ -11,12 +11,15 @@
 // import HelloWorld from './components/HelloWorld.vue';
 
 // eslint-disable-next-line import/extensions
-import Pagination from './components/pagination/pagination';
+import Bages from '@/components/bages/bages';
+
+// import Pagination from './components/pagination/pagination';
 
 export default {
   name: 'App',
   components: {
-    Pagination,
+    Bages,
+    // Pagination,
     // HelloWorld,
   },
 };
