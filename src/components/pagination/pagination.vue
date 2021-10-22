@@ -23,7 +23,9 @@ export default {
     };
   },
   methods: {
-    pageHandler() {},
+    pageHandler(hello) {
+      console.log(hello);
+    },
   },
 };
 </script>
