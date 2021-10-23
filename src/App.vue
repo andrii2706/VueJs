@@ -4,36 +4,36 @@
     <!--    <div class="flex justify-center items-center">-->
     <!--      <pagination/>-->
     <!--    </div>-->
-    <!--    <div class="flex justify-center items-center">-->
-    <!--      <bages/>-->
-    <!--    </div>-->
+        <div class="flex justify-center items-center">
+          <bages/>
+        </div>
     <!--    <div>-->
     <!--      <buttons/>-->
     <!--    </div>-->
-    <div>
-      <inputs/>
-    </div>
+<!--    <div>-->
+<!--      <inputs/>-->
+<!--    </div>-->
   </div>
 </template>
 
 <script>
 // eslint-disable-next-line import/extensions
-// import Bages from '@/components/bages/bages';
+import Bages from '@/components/bages/bages';
 // eslint-disable-next-line import/extensions
 // import Pagination from '@/components/pagination/pagination';
 // eslint-disable-next-line import/extensions
 // import Buttons from '@/components/buttons/buttons';
 
 // eslint-disable-next-line import/extensions
-import Inputs from '@/components/inputs/inputs';
+// import Inputs from '@/components/inputs/inputs';
 
 export default {
   name: 'App',
   components: {
-    Inputs,
+    // Inputs,
     // Buttons,
     // Pagination,
-    // Bages,
+    Bages,
   },
 };
 </script>

@@ -12,8 +12,6 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "autoprefixer": "^9",
-    "bootstrap": "^5.1.3",
-    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
     "google-icon": "^1.0.1",
     "material-icons": "^1.10.0",
